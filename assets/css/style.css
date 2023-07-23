@@ -437,7 +437,7 @@ h6 {
 
 .bg {
   animation: slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #5F0A87 50%, #000000 50%);
+  background-image: linear-gradient(-60deg, #662784 50%, #000000 50%);
   bottom: 0;
   left: -50%;
   opacity: .5;
@@ -1062,11 +1062,13 @@ section {
   padding-block: 0.5rem;
   padding-inline: 1rem;
   z-index: 20;
+  background-color: #00000028;
 }
 
 .events .content .content-title h4 {
   color: #fff;
   font-weight: bolder;
+  text-shadow: #FC0 1px 0 10px;
 }
 
 .events .content .content-date {
